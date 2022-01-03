@@ -1,0 +1,60 @@
+.article-card{
+    height: 130px;
+    width: 150px;
+
+    border-radius: un(4);
+    border: 1px solid #ddd;
+
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 3px;
+    
+    span{
+        font-size: 10px;
+        color: #373737;
+    }
+    
+    span.description{
+        margin-bottom: 4%;
+    }
+    span.date{
+        font-weight: 600;
+    }
+}
+
+.article-title-box{
+    height: auto;
+    margin: 5px 0 5px 0;
+
+    h1{
+        font-size: 14px;
+        margin: 0;
+    }
+
+    span{
+        color: #bdbdbd;
+    }
+}
+
+.article-body-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.article-action-container{
+    height: 15%;
+    width: 100%;
+    
+    margin-top: 5%;
+    a{
+        font-size: 12px;
+        text-decoration: none;
+
+        color: #bdbdbd;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+}

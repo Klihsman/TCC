@@ -1,0 +1,131 @@
+.height-100vh{
+    height: 100vh;
+}
+
+.width-max{
+    width: 100%;
+}
+
+.height-max{
+    height: 100%;
+}
+
+.height-60{
+    height: 60%;
+}
+
+.height-30{
+    height: 30%;
+}
+
+.width-45{
+    width: 45%;
+}
+
+.width-55{
+    width: 55%;
+}
+
+.default-background{
+    background-color: #4A1B85;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.default-white-title{
+    color: #fff;
+
+    text-align: center;
+    font-weight: 500;
+}
+
+.default-black-title{
+    color: #000;
+
+    text-align: center;
+    font-weight: 500;
+}
+
+.default-form-title{
+    font-size: 1.5em;
+    color: #000;
+
+    text-align: center;
+    font-weight: 400;
+}
+
+.default-box{
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-box{
+    height: 450px;
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+    border: 1px solid #ddd;
+
+    box-shadow:  0px 0.5px 2px 1px #ddd;
+}
+
+.input-container{
+    width: 95%;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-form-container{
+    width: 95%;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-form-container{
+    width: 95%;
+    height: 50px;
+}
+
+.button-form-box{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.margin-form-input{
+    margin-top: 3%;
+}
+
+.margin-title-input{
+    margin-bottom: 4%;
+}
+
+.margin-button-container{
+    margin-top: 6%;
+}
+
+.margin-button{
+    margin-top: 3%;
+}

@@ -1,9 +1,15 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 
 import {DataInput, PasswordInput} from '../../Components/Utils/Inputs';
 import {PrimaryButton, SecondaryButton} from '../../Components/Utils/Buttons';
 
 const Login = ()=>{
+    const [sugestions, setSugestions] = useState([]); 
+    useEffect(()=>{
+        setSugestions(['Estatística', 'Java',' Nodejs', 'COVID-19', 'Automação', 'Compilação', 'WEB',' UI']);
+        console.log(sugestions)
+    }, [setSugestions, sugestions])
+
     return(
         <div className="height-100vh width-max flex-container">
             <div className="height-max width-45 default-background">

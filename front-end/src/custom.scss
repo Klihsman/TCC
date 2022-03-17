@@ -2,10 +2,6 @@
     height: 100vh;
 }
 
-.width-max{
-    width: 100%;
-}
-
 .height-max{
     height: 100%;
 }
@@ -16,6 +12,17 @@
 
 .height-30{
     height: 30%;
+}
+
+.height-20{
+    height: 20%;
+}
+
+.height-50vh{
+    height: 50vh;
+}
+.width-max{
+    width: 100%;
 }
 
 .width-45{
@@ -32,10 +39,34 @@
 
 .flex-container{
     display: flex;
+
+    &.flex-direction-column{
+        flex-direction: column;
+    }
+
+    &.flex-direction-row{
+        flex-direction: row;
+    }
 }
 
 .align-center{
     align-items: center;
+}
+
+.align-self-start{
+    align-self: flex-start !important;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
 }
 
 .default-white-title{
@@ -60,12 +91,34 @@
     font-weight: 400;
 }
 
+.default-black-title-left{
+    text-align: left !important;
+}
+
 .default-box{
     height: 100%;
 
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.default-label{
+    color: #fff;
+
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+.default-icon{
+    color: #fff;
+    cursor: pointer;
+
+    margin-left: 1%;
+}
+
+.default-icon:hover{
+    color: #ccc;
 }
 
 .form-box{
@@ -81,6 +134,10 @@
     border: 1px solid #ddd;
 
     box-shadow:  0px 0.5px 2px 1px #ddd;
+}
+
+.font-size-1em{
+    font-size: 1em;
 }
 
 .input-container{
@@ -118,6 +175,10 @@
     margin-top: 3%;
 }
 
+.margin-input-label{
+    margin-top: 1%;
+}
+
 .margin-title-input{
     margin-bottom: 4%;
 }
@@ -128,4 +189,8 @@
 
 .margin-button{
     margin-top: 3%;
+}
+
+.title-with-border{
+    border-bottom: 1px solid;
 }

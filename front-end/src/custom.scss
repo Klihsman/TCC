@@ -1,3 +1,14 @@
+.action-button{
+    text-decoration: underline;
+    cursor: pointer;
+
+    margin: 0 5px 5px 0;
+}
+
+.action-button:hover{
+    color: #4d4d4d;
+}
+
 .height-100vh{
     height: 100vh;
 }
@@ -140,6 +151,10 @@
     font-size: 1em;
 }
 
+.flex-wrap-active{
+    flex-wrap: wrap;
+}
+
 .input-container{
     width: 95%;
     height: 30px;
@@ -189,6 +204,10 @@
 
 .margin-button{
     margin-top: 3%;
+}
+
+.margin-top-50{
+    margin: 50px 0 0 0;
 }
 
 .title-with-border{

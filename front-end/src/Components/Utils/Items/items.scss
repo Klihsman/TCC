@@ -1,4 +1,4 @@
-.article-card{
+.article-card {
     height: 130px;
     width: 150px;
 
@@ -9,52 +9,52 @@
     flex-direction: column;
 
     padding-left: 3px;
-    
-    span{
+
+    span {
         font-size: 10px;
         color: #373737;
     }
-    
-    span.description{
+
+    span.description {
         margin-bottom: 4%;
     }
-    span.date{
+    span.date {
         font-weight: 600;
     }
 }
 
-.article-title-box{
+.article-title-box {
     height: auto;
     margin: 5px 0 5px 0;
 
-    h1{
+    h1 {
         font-size: 14px;
         margin: 0;
     }
 
-    span{
+    span {
         color: #bdbdbd;
     }
 }
 
-.article-body-box{
+.article-body-box {
     display: flex;
     flex-direction: column;
 }
 
-.article-action-container{
+.article-action-container {
     height: 15%;
     width: 100%;
-    
+
     margin-top: 5%;
-    a{
+    a {
         font-size: 12px;
         text-decoration: none;
 
         color: #bdbdbd;
     }
 
-    a:hover{
+    a:hover {
         text-decoration: underline;
     }
 }

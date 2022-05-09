@@ -2,27 +2,27 @@ import React from 'react';
 import './inputs.scss';
 import InputMask from 'react-input-mask';
 
-const DataInput = ({placeholder, mask})=>{
+const DataInput = ({ placeholder, mask }) => {
     return <InputMask mask={mask} placeholder={`${placeholder}`} type="text" className="input" />
 }
 
-const TextInput = ({placeholder})=>{
+const TextInput = ({ placeholder }) => {
     return <input placeholder={`${placeholder}`} type="email" className="input" />
 }
 
-const PasswordInput = ({placeholder})=>{
+const PasswordInput = ({ placeholder }) => {
     return <input placeholder={`${placeholder}`} type="password" className="input" />
 }
 
-const FileInput = ({placeholder})=>{
+const FileInput = ({ placeholder }) => {
     <div>
         <label for="file">{placeholder}</label>
         <input type="file" name="file" className="input" />
     </div>
 }
 
-const EmailInput = ({placeholder})=>{
+const EmailInput = ({ placeholder }) => {
     return <input placeholder={`${placeholder}`} type="email" className="input" />
 }
 
-export {FileInput, TextInput, PasswordInput, DataInput, EmailInput};
+export { FileInput, TextInput, PasswordInput, DataInput, EmailInput };

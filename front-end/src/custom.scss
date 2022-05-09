@@ -1,100 +1,104 @@
-.action-button{
+.action-button {
     text-decoration: underline;
     cursor: pointer;
 
     margin: 0 5px 5px 0;
 }
 
-.action-button:hover{
+.action-button:hover {
     color: #4d4d4d;
 }
 
-.height-100vh{
+.height-100vh {
     height: 100vh;
 }
 
-.height-max{
+.height-max {
     height: 100%;
 }
 
-.height-60{
+.height-60 {
     height: 60%;
 }
 
-.height-30{
+.height-30 {
     height: 30%;
 }
 
-.height-20{
+.height-20 {
     height: 20%;
 }
 
-.height-50vh{
+.height-50vh {
     height: 50vh;
 }
-.width-max{
+.width-max {
     width: 100%;
 }
 
-.width-45{
+.width-45 {
     width: 45%;
 }
 
-.width-55{
+.width-55 {
     width: 55%;
 }
 
-.default-background{
-    background-color: #4A1B85;
+.default-background {
+    background-color: #4a1b85;
 }
 
-.flex-container{
+.flex-container {
     display: flex;
 
-    &.flex-direction-column{
+    &.flex-direction-column {
         flex-direction: column;
     }
 
-    &.flex-direction-row{
+    &.flex-direction-row {
         flex-direction: row;
     }
 }
 
-.align-center{
+.align-center {
     align-items: center;
 }
 
-.align-self-start{
+.align-end {
+    align-items: flex-end;
+}
+
+.align-self-start {
     align-self: flex-start !important;
 }
 
-.justify-around{
+.justify-around {
     justify-content: space-around;
 }
 
-.justify-between{
+.justify-between {
     justify-content: space-between;
 }
 
-.justify-center{
+.justify-center {
     justify-content: center;
 }
 
-.default-white-title{
+.default-white-title {
     color: #fff;
 
     text-align: center;
     font-weight: 500;
 }
 
-.default-black-title{
+.default-black-title {
     color: #000;
 
     text-align: center;
     font-weight: 500;
 }
 
-.default-form-title{
+.default-form-title {
     font-size: 1.5em;
     color: #000;
 
@@ -102,11 +106,11 @@
     font-weight: 400;
 }
 
-.default-black-title-left{
+.default-black-title-left {
     text-align: left !important;
 }
 
-.default-box{
+.default-box {
     height: 100%;
 
     display: flex;
@@ -114,25 +118,25 @@
     justify-content: center;
 }
 
-.default-label{
+.default-label {
     color: #fff;
 
     font-weight: 400;
     font-size: 0.9em;
 }
 
-.default-icon{
+.default-icon {
     color: #fff;
     cursor: pointer;
 
     margin-left: 1%;
 }
 
-.default-icon:hover{
+.default-icon:hover {
     color: #ccc;
 }
 
-.form-box{
+.form-box {
     height: 450px;
     width: 50%;
 
@@ -144,18 +148,18 @@
 
     border: 1px solid #ddd;
 
-    box-shadow:  0px 0.5px 2px 1px #ddd;
+    box-shadow: 0px 0.5px 2px 1px #ddd;
 }
 
-.font-size-1em{
+.font-size-1em {
     font-size: 1em;
 }
 
-.flex-wrap-active{
+.flex-wrap-active {
     flex-wrap: wrap;
 }
 
-.input-container{
+.input-container {
     width: 95%;
     height: 30px;
 
@@ -164,7 +168,7 @@
     justify-content: center;
 }
 
-.title-form-container{
+.title-form-container {
     width: 95%;
     height: 30px;
 
@@ -173,12 +177,12 @@
     justify-content: center;
 }
 
-.button-form-container{
+.button-form-container {
     width: 95%;
     height: 50px;
 }
 
-.button-form-box{
+.button-form-box {
     width: 100%;
 
     display: flex;
@@ -186,30 +190,30 @@
     justify-content: center;
 }
 
-.margin-form-input{
+.margin-form-input {
     margin-top: 3%;
 }
 
-.margin-input-label{
+.margin-input-label {
     margin-top: 1%;
 }
 
-.margin-title-input{
+.margin-title-input {
     margin-bottom: 4%;
 }
 
-.margin-button-container{
+.margin-button-container {
     margin-top: 6%;
 }
 
-.margin-button{
+.margin-button {
     margin-top: 3%;
 }
 
-.margin-top-50{
+.margin-top-50 {
     margin: 50px 0 0 0;
 }
 
-.title-with-border{
+.title-with-border {
     border-bottom: 1px solid;
 }

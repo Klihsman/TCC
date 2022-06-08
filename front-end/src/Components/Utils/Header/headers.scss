@@ -3,7 +3,7 @@
 }
 
 .normal-header-height {
-    height: 150px;
+    min-height: 150px;
 }
 
 .default-normal-header {
@@ -30,6 +30,8 @@
 .system-title-container {
     height: 100%;
     width: 10%;
+
+    margin: 0px 1% 0px 0px;
 
     h3{
         margin: 0;

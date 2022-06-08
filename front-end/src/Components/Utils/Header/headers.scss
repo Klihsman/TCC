@@ -1,38 +1,47 @@
-.header-full-width{
+.header-full-width {
     width: 100%;
 }
 
-.normal-header-height{
-    height: 150px;
+.normal-header-height {
+    min-height: 150px;
 }
 
-.default-normal-header{
-    background-color: #4A1B85;
+.default-normal-header {
+    background-color: #4a1b85;
     color: #fff;
 
     align-items: center;
     justify-content: center;
 }
 
-.profile-container{
+.profile-container {
     height: 100%;
-    width: 20%;
+    width: 10%;
 
     display: flex;
     justify-content: center;
 }
 
-.normal-header-input-container{
+.normal-header-input-container {
     height: 100%;
-    width: 55%;
+    width: 80%;
 }
 
-.system-title-container{
+.system-title-container {
     height: 100%;
-    width: 35%;
+    width: 10%;
+
+    margin: 0px 1% 0px 0px;
+
+    h3{
+        margin: 0;
+
+        font-size: 1.8em;
+        font-weight: 400;
+    }
 }
 
-.action-with-icon{
+.action-with-icon {
     width: 90%;
     height: 15%;
 
@@ -42,16 +51,20 @@
     padding: 5px;
     cursor: pointer;
 
-    svg{
+    svg {
         margin-right: 8px;
     }
 }
 
-.action-with-icon:hover{
-    span:hover{
+.action-with-icon:hover {
+    span:hover {
         text-decoration: underline;
     }
 
     filter: brightness(90%);
 }
 
+.header-input-container{
+    height: 80px;
+    width: 50%;
+}

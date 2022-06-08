@@ -1,8 +1,8 @@
 import React from 'react';
-import './items.scss';  
+import './items.scss';
 
-const CardAdd = ()=>{
-    return(
+const CardAdd = () => {
+    return (
         <div className="article-card">
 
         </div>
@@ -10,4 +10,4 @@ const CardAdd = ()=>{
 }
 
 
-return CardAdd;
+export default CardAdd;

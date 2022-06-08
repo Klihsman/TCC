@@ -1,8 +1,8 @@
 import React from 'react';
-import './items.scss';  
+import './items.scss';
 
-const Card = ({title, description, date, autor})=>{
-    return(
+const Card = ({ title, description, date, autor }) => {
+    return (
         <div className="article-card">
             <div className="article-title-box">
                 <h1>{title}</h1>

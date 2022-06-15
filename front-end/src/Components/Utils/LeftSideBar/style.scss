@@ -1,0 +1,41 @@
+.left-side-bar-container {
+    height: 100vh;
+    width: 25%;
+
+    background-color: #4A1B85;
+}
+
+.menu-left-side-bar {
+    width: 98%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-top: 30%;
+}
+
+.option-menu-left-side-bard {
+    height: 45px;
+    width: 30%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: #fff;
+    
+    svg{
+        font-size: 20px;
+    }
+
+    font-size: 18px;    
+
+    margin-left: 5%;
+}
+
+.option-menu-left-side-bard:hover {
+    cursor: pointer;
+
+    filter: brightness(80%);
+}

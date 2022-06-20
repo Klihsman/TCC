@@ -7,6 +7,7 @@ import SignUp from "./Pages/SignUp";
 import Search from "./Pages/Search";
 import Profile from "./Pages/Profile";
 import Works from "./Pages/Works";
+import Users from "./Pages/Users";
 
 function Router() {
   return (
@@ -20,6 +21,8 @@ function Router() {
 
         <Route path="/signup" element={<SignUp />} />
         <Route path="/search" element={<Search />} />
+
+        <Route path="/users" element={<Users />} />
 
         <Route path="/works" element={<Works />} />
       </Routes>
